@@ -473,6 +473,7 @@ module PayPal::SDK
           object_of :soft_descriptor, String
           object_of :item_list, ItemList
           object_of :purchase_unit_reference_id, String
+          object_of :payment_options, PaymentOptions
           array_of  :related_resources, RelatedResources
           array_of  :transactions, Transaction
         end
